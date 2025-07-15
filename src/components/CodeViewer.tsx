@@ -41,7 +41,7 @@ const extensionMap: Record<string, string> = {
 };
 
 export const CodeViewer = memo<CodeViewerProps>(
-	({ code, language, fileName, framework, showLineNumbers = true, className = "", copiedSection = "", onCopy }) => {
+	({ code, language, fileName, showLineNumbers = true, className = "", copiedSection = "", onCopy }) => {
 		const [mounted, setMounted] = useState(false);
 		const { theme, resolvedTheme } = useTheme();
 
