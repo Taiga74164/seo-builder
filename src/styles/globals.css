@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Scrollbar for Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: rgba(156, 163, 175, 0.3) transparent;
+    scrollbar-color: rgba(156, 163, 175, 0.90) transparent;
 }
 
 .dark * {
@@ -181,9 +181,6 @@ h1, h2, h3, h4, h5, h6 {
         --chart-4: 280 65% 60%;
         --chart-5: 340 75% 55%;
     }
-}
-
-@layer base {
     * {
         @apply border-border;
     }

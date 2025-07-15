@@ -242,7 +242,7 @@ export const INITIAL_FORM_DATA: IFormData = {
 	// Open Graph
 	ogTitle: "",
 	ogDescription: "",
-	ogImage: "/images/logo.png",
+	ogImage: "/images/logo-og.png",
 	ogUrl: "",
 	ogType: "website",
 	ogSiteName: "",

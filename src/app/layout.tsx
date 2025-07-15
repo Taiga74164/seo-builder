@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 		type: "website",
 		images: [
 			{
-				url: "/images/logo.png",
+				url: "/images/logo-og.png",
 				width: 1200,
 				height: 630,
 				alt: "SEO Builder - Build optimized metadata for your web application",
